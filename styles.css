@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   color: #E6EEDE;               /* Light Blue */
   background-color: #5F88B3;    /* Light Blue */
@@ -11,12 +16,16 @@ body {
 h1, h2, h3, h4, h5, h6, p, li{
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: normal;
+  font-size: 16px;
 }
 h1 {
   font-size: 2em;
 }
 h2 {
   font-size: 1.6em;
+}
+h3 {
+  font-size: 1.2em;
 }
 ul {
   list-style-type: square;
@@ -72,10 +81,16 @@ h1:first-of-type { /* This is to move the 'Seattle' heading below the navegation
 .synopsis {
   width: max-content;
   padding: 50px;
-  /*padding: 25px 25px;*/
   margin: 25px;
   margin-left: auto;
   background-color: #728479;
   text-indent: 10px;
+  line-height: 1.8;
+}
+.whatwedid {
+  line-height: 1.4;
+}
+#eat {
+  margin-bottom: 1.5em;
 }
 /*Flexbox and grid*/
