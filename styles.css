@@ -1,7 +1,12 @@
 body {
-  color: #9E9E9E;               /* Dark gray */
-  background-color: #2E2E2E;    /* Light gray */
+  color: #E6EEDE;               /* Light Blue */
+  background-color: #5F88B3;    /* Light Blue */
   font-size: 18px;
+  background-image: url("links-and-images/2.JPG");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left top;
 }
 h1, h2, h3, h4, h5, h6, p, li{
   font-family: "Helvetica", "Arial", sans-serif;
@@ -20,49 +25,56 @@ ol {
   list-style-type: lower-roman;
 }
 a {
-  color: #4B6E9E;
+  color: #AEDAEE;
 }
 
-.menu {
+#menu {
   display: flex;
   justify-content: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #1643B6;
+  background-color: #5F88B3;
   text-align: center;
 
   position: fixed;
   top: 0;
   width: 100%;
 }
-.menu a {
+#menu a {
   display: block;
   color: #DADBDC;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-
-.menu li {
+#menu li {
   display: inline;
   float: left;
-  /*border-right: 1px solid #bbb;*/
 }
-.menu li:last-child {
+#menu li:last-child {
   border-right: none;
 }
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  color: green;
+#menu li a:hover {
+  color: #224024; /* Change the link color to green on hover */
 }
 .active {
-  background-color: #04AA6D;
+  background-color: #728479;
 }
 
-h1:first-of-type {
-  height: 100px;
+h1:first-of-type { /* This is to move the 'Seattle' heading below the navegation bar' */
+  height: 75px;
   width: 100%;
-  line-height: 4;
+  line-height: 2;
 }
+
+.synopsis {
+  width: max-content;
+  border: 15px #728479;
+  padding: 50px;
+  margin: 25px;
+  margin-left: auto;
+  background-color: #728479;
+}
+/*Flexbox and grid*/
