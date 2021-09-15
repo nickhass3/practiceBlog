@@ -71,7 +71,8 @@ h1:first-of-type { /* This is to move the 'Seattle' heading below the navegation
 
 .synopsis {
   width: max-content;
-  padding: 25px 25px;
+  padding: 50px;
+  /*padding: 25px 25px;*/
   margin: 25px;
   margin-left: auto;
   background-color: #728479;
