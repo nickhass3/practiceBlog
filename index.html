@@ -2,49 +2,65 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <title>Nick's Blog</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-      <div class="navbar">
-        <ul id="menu">
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="olympic.html">Olympic Peninsula</a></li>
-          <li><a href="seattle.html">Seattle</a></li>
-          <li><a href="central.html">Central Washington</a></li>
-          <li><a href="south.html">Southern Washington</a></li>
-        </ul>
+      <div class="navbar-container">
+        <div class="navbar">
+          <ul class="menu">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="olympic.html">Olympic Peninsula</a></li>
+            <li><a href="seattle.html">Seattle</a></li>
+            <li><a href="central.html">Central Washington</a></li>
+            <li><a href="south.html">Southern Washington</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="synopsis-container">
+        <div class="synopsis">
+          <h1>Seattle Trip</h1>
+          <!--
+          <img src='links-and-images/seattle-skyline.jpg' width='300' alt='Seattle Skyline at Night'/>
+        -->
+
+          <h3>Summer 2021</h3>
+
+          <ol>
+            <li>Biking</li>
+            <p>We rode our bikes around the western section of Lake Washington on the Burke Gilman trail.</p>
+            <p><a href="biking.html" target='_blank'>Nick's advice about biking in Seattle</a></p>
+            <li>Eating</li>
+            <p>Later that day we stopped at Pike Place market to eat the famous Piroshkies and Beecher's Cheese.</p>
+            <li>Hiking</li>
+            <p>Later in the trip we hiked at Mt.Rainier and at the Olympic Mountains.</p>
+            <p>Mt. Rainier is a super cool volcano that you can check out <a href="https://en.wikipedia.org/wiki/Mount_Rainier">here</a>.</p>
+            <!-- <img src='links-and-images/MtRainier.jpg' width='800' alt='Mt. Rainier'/> -->
+            <li>Shopping</li>
+            <p>At the end of the trip we did <em>too much</em> shopping.</p>
+          </ol>
+
+          <p>Check out some extra <a href="images.html" target="_blank">photos</a> from the trip.</p>
+        </div>
       </div>
 
-      <div class="synopsis">
-        <h1>Seattle Trip</h1>
-        <!--
-        <img src='links-and-images/seattle-skyline.jpg' width='300' alt='Seattle Skyline at Night'/>
-      -->
-        <h2>A few things we wanted to do</h2>
-        <ul class="whatwedid">
-          <li>Hike</li>
-          <li>Bike</li>
-          <li>Shop</li>
-          <li id="eat">Eat</li>
-        </ul>
-        <h3>Here is what we ended up doing</h3>
-
-        <ol>
-          <li>Biking</li>
-          <p>We rode our bikes around the western section of Lake Washington on the Burke Gilman trail.</p>
-          <p><a href="biking.html" target='_blank'>Nick's advice about biking in Seattle</a></p>
-          <li>Eating</li>
-          <p>Later that day we stopped at Pike Place market to eat the famous Piroshkies and Beecher's Cheese.</p>
-          <li>Hiking</li>
-          <p>Later in the trip we hiked at Mt.Rainier and at the Olympic Mountains.</p>
-          <p>Mt. Rainier is a super cool volcano that you can check out <a href="https://en.wikipedia.org/wiki/Mount_Rainier">here</a>.</p>
-          <!-- <img src='links-and-images/MtRainier.jpg' width='800' alt='Mt. Rainier'/> -->
-          <li>Shopping</li>
-          <p>At the end of the trip we did <em>too much</em> shopping.</p>
-        </ol>
-
-        <p>Check out some extra <a href="images.html" target="_blank">photos</a> from the trip.</p>
+      <div class="flex-container">
+        <div class="flex">
+          <div class="flex-item">Hike
+            <h1>Hike</h1>
+          </div>
+          <div class="flex-item">Bike
+            <h1>Bike</h1>
+          </div>
+          <div class="flex-item">Shop
+            <h1>Shop</h1>
+          </div>
+          <div class="flex-item">Eat
+            <h1>Eat</h1>
+          </div>
+        </div>
       </div>
 
   </body>
